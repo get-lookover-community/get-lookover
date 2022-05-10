@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="gJC5gT8VPn7OLhjK-LP4Vr6BbGZ46MFfcV1nfSMLwEw" />
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W8GWR4D');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QZHH3NCNF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7QZHH3NCNF');
+    </script>
+    <!-- End Google Tag Manager -->
+    <title>Get lookover</title>
+    <link rel="stylesheet" href="css/getlookover.css">
+    <!-- <link rel="stylesheet" href="https://get-lookover.github.io/CDN/css/lookover.css">  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lookover.js"></script>
+    <!-- <script src="https://get-lookover.github.io/CDN/js/lookover.js"></script> -->
+    <style>
+        body{
+            background-color: #f1f3f4;font-weight: 200;
+        }
+        h1,h2,h3,h4,h5,h6{font-weight: 400}
+		.container-fluid{
+			padding:12px 0.8em;
+		}
+		
+        
+		.round{
+			border-radius:0.5rem;
+		}
+        
+        .headingText{
+            font-size: 1.2em;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .learn-more{
+            font-size: 0.7em;
+            text-decoration: none;
+            color: currentColor;
+        }
+		.gradient-sky{
+            background: linear-gradient(to bottom right, #86f9f3 0%, #5fc4f3 100%);
+            color: #3f3f3f;
+        }
+		.gradient-dark-sky{
+			background: linear-gradient(to bottom right, #00ccff 0%, #0099cc 83%);
+            color: #F2F2F2;
+        }
+        .gradient-rose{
+            background: linear-gradient(to bottom right, rgb(255, 179, 180) 0%, rgb(238, 68, 150) 100%);
+            color:white;
+        }
+		.gradient-purple{
+            background: linear-gradient(to bottom right, #b366ff 0%, #6600cc 83%);
+            color:white;
+        }
+        .gradient-sun{
+            background: linear-gradient(to bottom right, rgb(255, 255, 45) 0%, #fa9632 100%);
+            color:#3f3f3f;
+        }
+        .gradient-nature{
+            background: linear-gradient(to bottom right, #00dd44 0%, #007544 100%);
+            color:white;
+        }
+        .gradient-tomato{
+            background: linear-gradient(to bottom right, rgb(255, 148, 77) 0%, rgb(255, 102, 102) 100%);
+            color:white;
+        }
+        .gradient-coal{
+            background: linear-gradient(to bottom right, rgb(95, 95, 95) 0%, rgb(49, 49, 49) 100%);
+            color:white;
+        }
+		
+		.navbar-items{cursor:pointer;}
+		.headingSection{
+			padding:0.7em;
+			width:100%;
+			border-radius:0.5rem;
+		}
+		.bodySections{
+			padding:0.7em;
+			width:100%;
+		}
+		section{
+			padding:0 0.3em;
+			display:flex;
+			flex-direction:column;
+			gap:0.3em;
+		}
+		.code{font-size:0.8em;font-weight:100;letter-spacing:0.05rem;white-space: nowrap;overflow-x: auto;background-color: #202c2c;}
+		
+		#output{padding:0.6em; display:flex;flex-direction:column;gap:0.3em;}
+		#downloadSec{display:none;}
+		#docsSec{display:none;}
+		#infoSec{display:none;}
+		#menu{visibility:hidden;}
+		.how,.docDown{display:flex;flex-direction:row;justify-content:space-between;margin-bottom:0.3em;align-items:center; gap:10px;}
+		.navbar-links2{
+			list-style:none;
+		}
+		.navbar-items2{
+			display:inline-block;
+			padding:0 0.2em;
+			font-size:0.8em;
+			color: #fff;
+			cursor: pointer;
+		}
+		@media screen and (max-width:600px){
+			.navtext{
+				position:absolute;
+				margin-top:4px;
+				font-size:1em;
+				display:inline-block;
+				visibility:visible;
+			}
+			.docDown{display:flex;flex-direction:column;justify-content:space-between; gap:10px;}
+			.navbar-nav{
+				background:inherit;
+			}
+			.navbar-nav2{
+				display:none;
+			}
+			.navtab{
+				display:flex;
+				flex-direction:row;
+				justify-content:center;
+			}
+			li a .g-msr{
+				margin-right:0.5em;
+			}
+			li a{
+				padding:0 0.5em;
+			}
+			#menu{visibility:visible;}
+		}
+		.box{padding:17px;}
+		.doc{text-align:center;padding:0.3em;cursor:pointer; background-color:#f1f3f4;color:#3f3f3f;}
+		.doc:hover{background-color:#e2e7e9;color:#3f3f3f;}
+		.center{width:100%;max-width:inherit;text-align:center;}
+    </style>
+</head>
+<body style="display:flex; flex-direction:column; gap:0.3em;">
+	<header class="navbar right-navbar sc-bgcolor-messenger">
+		<h3 href="#" class="logo"><b>Get Lookover</b></h3>
+		<nav class="navbar-nav">
+			<ul class="navbar-links">
+				<li class="navbar-items"><a class="navtab active" id="home"><span class='g-msr'>home</span><span class='navtext'><b>#home<b></span></a></li>
+				<li class="navbar-items"><a class="navtab"  id="download"><span class='g-msr'>download</span><span class='navtext'><b>#download</b></span></a></li>
+				<li class="navbar-items"><a class="navtab"  id="docs"><span class="g-msr">docs</span><span class="navtext"><b>#docs</b></span></a></li>
+				<li class="navbar-items"><a class="navtab"  id="info"><span class="g-msr">info</span><span class="navtext"><b>#about</b></span></a></li>
+			</ul>                    
+		</nav>
+		<a href="#" class="g-msr navmenu" id="nav">menu</a>
+	</header>
+	
+	<section>
+		<div class="headingSection sc-bgcolor-messenger">
+			<h4 class="headingText"><span class='g-msr'>home</span><b style='margin-left:0.5em;'>Home</b></h4>
+		</div>
+		<!-- home -->
+		<div  class="bodySections mt-bgcolor-light" id="homeSec">
+			<div class="col-1 docDown round sc-bgcolor-messenger">
+				<span style="font-weight: 200;">
+					<p>Download and read the full documentation to know more how to use our framework.</p>
+					<p>click the right docs icon to access to download page.</p>
+				</span>
+				<a class="g-msr doc round" id="documentation">docs<br><span style="font-size:0.7em;">Documentation</span></a>
+			</div>
+			<br>
+			<h4>Examples & Outputs</h4>
+			<br>
+			<div class="col-1 how round sc-bgcolor-messenger">
+				<span>#how_to_use_navbar_class_?</span>
+				<span class="g-msr infoIco fInfo">info</span>
+			</div>
+			<div class="cols-container">
+				<div class="col-2 round mt-bgcolor-dark code" id="code_1">
+					<h4 style="width:100%;max-width:inherit; text-align:center;">-------------------- #code --------------------</h4><br><br>
+					<p>&lt;!-- Navbar Class --&gt;<br>
+					&lt;header class="navbar center-navbar sc-bgcolor-messenger"&gt; &lt;!-- Center-Navbar --&gt; <br>
+					&lt;h3 href="#" class="logo"&gt;Brand&lt;/h3&gt; &lt;!-- This is the brand --&gt;<br>
+					&lt;nav class="navbar-nav"&gt; &lt;!-- Start the navlinks --&gt;<br>
+					&lt;ul class="navbar-links"&gt;<br>
+					&lt;li class="navbar-items"&gt;&lt;a href="#" class="navtab"&gt;Home&lt;/a&gt;&lt;/li&gt;<br>
+				    &lt;li class="navbar-items"&gt;&lt;a href="#" class="navtab"&gt;Blog&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;li class="navbar-items"&gt;&lt;a href="#" class="navtab"&gt;Downloads&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;li class="navbar-items"&gt;&lt;a href="#" class="navtab"&gt;Infos&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;/ul&gt;<br>
+					&lt;/nav&gt; &lt;!-- End the navlinks --&gt;<br>
+					&lt;a href="#" class="navmenu" id="nav"&gt;&#9776;&lt;/a> &lt;!-- Toggle nav-icon --&gt;<br>
+					&lt;/header&gt;</p>
+				</div>
+				<div class="col-2 round mt-bgcolor-dark" id="output">
+					<h4 style="width:100%;max-width:inherit; text-align:center;">-------------------- #output --------------------</h4><br><br><br>
+					
+					<p>#center-navbar</p>
+					<header class="navbar round center-navbar sc-bgcolor-messenger">
+						<h3 href="#" class="logo">Brand</h3>
+						<nav class="navbar-nav2">
+							<ul class="navbar-links2">
+								<li class="navbar-items2"><a class="navtab">Home</a></li>
+								<li class="navbar-items2"><a class="navtab">Blog</a></li>
+								<li class="navbar-items2"><a class="navtab">Downloads</a></li>
+								<li class="navbar-items2"><a class="navtab">Infos</a></li>
+							</ul>                    
+						</nav>
+						<a href="#menu" id="menu" style="text-decoration:none; color:currentColor;">&#9776;</a>
+					</header>
+					<p>#right-navbar</p>
+					<header class="navbar round right-navbar sc-bgcolor-messenger">
+						<h3 href="#" class="logo">Brand</h3>
+						<nav class="navbar-nav2">
+							<ul class="navbar-links2">
+								<li class="navbar-items2"><a class="navtab">Home</a></li>
+								<li class="navbar-items2"><a class="navtab">Blog</a></li>
+								<li class="navbar-items2"><a class="navtab">Downloads</a></li>
+								<li class="navbar-items2"><a class="navtab">Infos</a></li>
+							</ul>                    
+						</nav>
+						<a href="#menu" id="menu" style="text-decoration:none; color:currentColor;">&#9776;</a>
+					</header>
+					<p>#left-navbar</p>
+					<header class="navbar round left-navbar sc-bgcolor-messenger">
+						<h3 href="#" class="logo">Brand</h3>
+						<nav class="navbar-nav2">
+							<ul class="navbar-links2">
+								<li class="navbar-items2"><a class="navtab">Home</a></li>
+								<li class="navbar-items2"><a class="navtab">Blog</a></li>
+								<li class="navbar-items2"><a class="navtab">Downloads</a></li>
+								<li class="navbar-items2"><a class="navtab">Infos</a></li>
+							</ul>                    
+						</nav>
+						<a href="#menu" id="menu" style="margin-left:auto;text-decoration:none; color:currentColor;">&#9776;</a>
+					</header>
+				</div>
+			</div>
+			<div class="col-1 how round sc-bgcolor-messenger">
+				<span>#how_to_use_grids_class_?</span>
+				<span class="g-msr infoIco sInfo">info</span>
+			</div>
+			<div class="cols-container">
+				<div class="col-2 round mt-bgcolor-dark code" id="code_2">
+					<h4 style="width:100%;max-width:inherit; text-align:center;">-------------------- #code --------------------</h4><br><br>
+					<p>&lt;!-- Grids with col-span-2 --&gt;<br><br>
+					&lt;div class="grid-container"&gt;<br><br>
+					&lt;div class="grid-content col-span-2"&gt;Col-span-2&lt;/div&gt;<br><br>
+					&lt;div class="grid-content"&gt;Normal&lt;/div&gt;<br><br>
+					&lt;div class="grid-content"&gt;Normal&lt;/div&gt;<br><br>
+					&lt;div class="grid-content col-span-2"&gt;Col-span-2&lt;/div&gt;<br><br>
+					&lt;/div&gt;<br><br>
+					&lt;!-- Grids with col-span-2 and row-span-2 --&gt;<br><br>
+					&lt;div class="grid-container"&gt;<br><br>
+					&lt;div class="grid-content row-span-2"&gt;Row-span-2&lt;/div&gt;<br><br>
+					&lt;div class="grid-content"&gt;Normal&lt;/div&gt;<br><br>
+					&lt;div class="grid-content"&gt;Normal&lt;/div&gt;<br><br>
+					&lt;div class="grid-content col-span-2"&gt;Col-span-2&lt;/div&gt;<br><br>
+					&lt;/div&gt;</p>
+				</div>
+				<div class="col-2 round mt-bgcolor-dark" id="output">
+					<h4 style="width:100%;max-width:inherit; text-align:center;">-------------------- #output --------------------</h4><br><br><br>
+					<p>#grids_with_col-span</p>
+					<div class="grid-container">
+						<div class="box grid-content mt-bgcolor-light round col-span-2">Col-span-2</div>
+						<div class="box grid-content mt-bgcolor-light round ">Normal</div>
+						<div class="box grid-content mt-bgcolor-light round">Normal</div>
+						<div class="box grid-content mt-bgcolor-light round col-span-2">Col-span-2</div>
+					</div>
+					<p>#grids_with_col-span_and_row-span</p>
+					<div class="grid-container">
+						<div class="box grid-content mt-bgcolor-light round row-span-2">Row-span-2</div>
+						<div class="box grid-content mt-bgcolor-light round ">Normal</div>
+						<div class="box grid-content mt-bgcolor-light round">Normal</div>
+						<div class="box grid-content mt-bgcolor-light round col-span-2"> Col-span-2</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+	
+
+
+		
+		
+		<!-- Download -->
+		<div  class="bodySections mt-bgcolor-light" id="downloadSec">
+			<p style="font-size:1.3em"><span class="g-msr">share</span> CDN (Content Delivery Network)</p>
+			<br>
+			<p style="color:#3c3c3c; font-weight: 200">You don't need to download Getlookover's folder, just <b>copy</b> the following css and js links in your html.</p>
+			<br>
+			<div class="round code" style="padding: 12px;" id="cdn">
+				<p>&lt;link rel="stylesheet" href="https://get-lookover.github.io/CDN/css/getlookover.css &gt;</p>
+				<p>&lt;link rel="stylesheet" href="https://get-lookover.github.io/CDN/css/getlookover.js &gt;</p>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<!-- Docs -->
+		<div  class="bodySections mt-bgcolor-light" id="docsSec">
+			<h1 style="color:#700ed3;" class="g-msr center">info</h1>
+			<h4 style="color:#700ed3;" class="center">The Docs Section will be ready soon</h4>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<!-- About -->
+		<div  class="bodySections mt-bgcolor-light" id="infoSec">
+			<h1 style="color:#21759b;" class="g-msr center">info</h1>
+			<h4 style="color:#21759b;" class="center">The About Section will be ready soon</h4>
+		</div>
+	</section>
+	
+	<script>
+		codeColor(document.getElementById("code_1"));
+		codeColor(document.getElementById("code_2"));
+		codeColor(document.getElementById("cdn"));
+	</script>
+</body>
+</html>
