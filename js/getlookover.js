@@ -410,3 +410,4 @@ function codeColor(elmnt, mode) {
     return [-1, -1, func];
   }  
 }
+//getlookover copy-2022
