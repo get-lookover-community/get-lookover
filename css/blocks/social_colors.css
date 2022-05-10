@@ -1,0 +1,96 @@
+/*background colors*/
+
+.sc-bgcolor-twitter{
+    background-color: #55ACEE;
+    color: var(--light);
+}
+.sc-bgcolor-messenger{
+    background-color: #0084FF;
+    color: var(--light);
+}
+.sc-bgcolor-skype{
+    background-color: #00AFF0;
+    color: var(--light);
+}
+.sc-bgcolor-wordpress{
+    background-color: #21759B;
+    color: var(--light);
+}
+.sc-bgcolor-whatsapp{
+    background-color: #25D366;
+    color: var(--light);
+}
+.sc-bgcolor-snapchat{
+    background-color: #FFFC00;
+    color: var(--dark);
+}
+.sc-bgcolor-behance{
+    background-color: #131418;
+    color: var(--light);
+} 
+.sc-bgcolor-quora{
+    background-color: #B92B27;
+    color: var(--light);
+}
+.sc-bgcolor-pinterest{
+    background-color: #BD081C;
+    color: var(--light);
+}
+.sc-bgcolor-linkedin{
+    background-color: #0077B5;
+    color: var(--light);
+}
+.sc-bgcolor-facebook{
+    background-color: #3B5999;
+    color: var(--light);
+}
+.sc-bgcolor-yahoo{
+    background-color: #410093;
+    color: var(--light);
+}
+.sc-bgcolor-reddit{
+    background-color: #FF5700;
+    color: var(--light);
+}
+
+// Text colors
+
+.sc-txtcolor-twitter{
+    color: #55ACEE;
+}
+.sc-txtcolor-messenger{
+    color: #0084FF;
+}
+.sc-txtcolor-skype{
+    color: #00AFF0;
+}
+.sc-txtcolor-wordpress{
+    color: #21759B;
+}
+.sc-txtcolor-whatsapp{
+    color: #25D366;
+}
+.sc-txtcolor-snapchat{
+    color: #FFFC00;
+}
+.sc-txtcolor-behance{
+    color: #131418;
+}
+.sc-txtcolor-quora{
+    color: #B92B27;
+}
+.sc-txtcolor-pinterest{
+    color: #BD081C;
+}
+.sc-txtcolor-linkedin{
+    color: #0077B5;
+}
+.sc-txtcolor-facebook{
+    color: #3B5999;
+}
+.sc-txtcolor-yahoo{
+    color: #410093;
+}
+.sc-txtcolor-reddit{
+    color: #FF5700;
+}
