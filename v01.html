@@ -1014,23 +1014,25 @@
 
 
 <script src="js/codecolor.js"></script>
+<script src="js/jquery.min.js"></script>
 <script>
-  /*var acc = document.getElementsByClassName("accordion");
-  var i;*/
-  $(".accordion").click(function{
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+ /* $(".accordion").click(function{
     $(".panel").slideToggle();
-  });
-  /*
+  });*/
+  
   for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     panel.classList.toggle("active");
-    if (panel.style.maxHeight) {
+    panel.slideToggle();
+   /* if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+    } */
     });
-  }*/
+  }
 </script>
