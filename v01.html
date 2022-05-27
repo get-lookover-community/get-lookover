@@ -1,7 +1,7 @@
 
 <div class="starter padding-24 margin-16">
   <h1>Get Lookover<sub style="font-size: small;">v0.1</sub></h1>
-  <a href="/download/releases.html" class="btn btn-primary">Go To download Page<span class="material-symbols">chevron_right</span></a>
+  <a href="/download_vr/releases.html" class="btn btn-primary">Go To download Page<span class="material-symbols">chevron_right</span></a>
 </div>
 
 <div class="note padding-24 margin-bottom-16 color-light-bg">
@@ -1018,21 +1018,15 @@
 <script>
   var acc = document.getElementsByClassName("accordion");
   var i;
- /* $(".accordion").click(function{
-    $(".panel").slideToggle();
-  });*/
-  
   for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     panel.classList.toggle("active");
-    
-    if (panel.style.display) {
-      panel.style.display = null;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
     } else {
-      panel.slideToggle();
-      /*panel.style.maxHeight = panel.scrollHeight + "px";*/
+      panel.style.maxHeight = panel.scrollHeight + "em";
     }
     });
   }
