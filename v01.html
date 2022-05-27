@@ -1027,12 +1027,13 @@
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     panel.classList.toggle("active");
-    panel.slideToggle();
-   /* if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
+    
+    if (panel.style.display) {
+      panel.style.display = null;
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } */
+      panel.slideToggle();
+      /*panel.style.maxHeight = panel.scrollHeight + "px";*/
+    }
     });
   }
 </script>
