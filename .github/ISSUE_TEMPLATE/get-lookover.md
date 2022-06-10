@@ -1,6 +1,6 @@
 ---
 name: Get Lookover
-about: Open Source CSS Framework for designing modern Websites
+about: Open Source CSS/JS Framework for designing modern Websites
 title: ''
 labels: ''
 assignees: ''
